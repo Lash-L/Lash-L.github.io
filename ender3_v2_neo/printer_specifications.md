@@ -1,3 +1,10 @@
+---
+title: Printer Specifications
+layout: page
+nav_order: 5
+description: "Specifications about parts in your printer."
+permalink: /ender3_v2_neo/printer_specifications
+---
 I am hoping to get a better understanding of what is actual in our printers, so that when you look to upgrade, you know what is needed.
 ## PSU Fan
 If you have the 24v PSU Fan cchv CHA6024RL-15C, this is the spec sheet I was given by their customer support. 

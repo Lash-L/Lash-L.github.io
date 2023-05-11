@@ -2,17 +2,4 @@ title: Lash-L Github pages
 description: My Github Pages website
 theme: just-the-docs
 
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - FINE_TUNING.md
-  - FIRMWARE_UPDATE.md
-  - PRINTER_PARTS.md
-  - PRINTER_SPECIFICATION.md
-  - PRINTER_UPGRADES.md
-  - REMOTE_MANAGEMENT.md
-  - TROUBLESHOOTING.md
- 
+aux_links_new_tab: true

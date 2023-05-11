@@ -1,3 +1,11 @@
+---
+title: Fine Tuning
+layout: page
+nav_order: 3
+description: "Information on how to best fine-tune your Ender 3 v2 neo"
+permalink: /ender3_v2_neo/fine_tuning
+---
+
 NOTE: If you are reading this page I assume you have flashed Marlin onto your printer. 
 
 If you are looking for more fine tuning, I would recommend the [Eliis3dp guide](https://ellis3dp.com/Print-Tuning-Guide/)

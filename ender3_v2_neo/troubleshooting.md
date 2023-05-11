@@ -1,3 +1,11 @@
+---
+title: Troubleshooting
+layout: page
+nav_order: 8
+description: "How to troubleshoot your printer"
+permalink: /ender3_v2_neo/troubleshooting
+---
+
 ## Help! I am having a physical issue with my printer (it is saying the temp is too high or low or it is acting strangely)
 
 The first thing to check in situations like this is that your printer is on the right Voltage setting for your home. Check the switch on the back to make sure it is correct.

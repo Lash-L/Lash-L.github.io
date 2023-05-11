@@ -1,12 +1,20 @@
+---
+title: Printer Upgrade
+layout: page
+nav_order: 4
+description: "What upgrades I recommend for your printer"
+permalink: /ender3_v2_neo/upgrades
+---
+
 If you are looking for more upgrades, I'd recommend looking at [malachus' post on reddit](https://www.reddit.com/r/Ender3V2NEO/comments/zaxivx/creality_ender_3_v2_neo_modification_and_upgrade/). He does a great job of keeping it up to date.
 
 NOTE: I am not an electrician, I am just a guy who does this for a hobby, as always take the needed precautions while working with electricity.
 
 
 # Table of Contents
-* [Bowden Extruder](bowden-extruder-tubing--5-minutes)
-* [Hotend fan](#hot-end-fan-30-minutes)
-* [Silent PSU fan](#silent-psu-fan-30-minutes)
+* [Bowden Extruder](upgrades#bowden-extruder-tubing--5-minutes)
+* [Hotend fan](upgrades#hot-end-fan-30-minutes)
+* [Silent PSU fan](upgrades#silent-psu-fan-30-minutes)
 
 # About these upgrades
 
@@ -23,10 +31,10 @@ Here is my tubing from only using the printer for a few weeks, it's not too bad,
 You can also replace to an all metal hotend, and CHEP did a video on this, but I liked the solution better, as it should also help filament go through a bit better and it was cheaper.
 
 ## Supplies
-* [Capricorn Bowden Tubin](https://amzn.to/3U1s32N)
+* [Capricorn Bowden Tubin](https://www.amazon.com/gp/product/B08G8MGLBX?ie=UTF8&psc=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=f32461208af7dd4380c1a80118b1d9d6&language=en_US&ref_=as_li_ss_tl)
 * Wrench that came with Ender/ plyers
 * smallish flathead screwdriver
-* [Wire strippers](https://amzn.to/40DplTs)
+* [Wire strippers](https://www.amazon.com/Klein-Tools-Cutter-Stripper-Stranded/dp/B00080DPNQ?crid=316Y441M10DW2&keywords=wire%2Bstrippers&qid=1673564002&s=hi&sprefix=wire%2Bstrippers%2Ctools%2C101&sr=1-6&th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=b4e1f93676a675f8fd0af04916e2e6ec&language=en_US&ref_=as_li_ss_tl)
 * Maybe zip ties depending on your own opinion
 
 ## Steps
@@ -51,9 +59,9 @@ The stock fan is rather loud and can be quite annoying in my opinion. Using an a
 * 24v 40mm fan of depth 10mm,15mm, or 20mm
 * 3D Printed shroud to match (10mm use stock), [15mm](https://www.thingiverse.com/thing:5783989), [20mm](https://www.thingiverse.com/thing:5748866)
 * [(Optional) Fan grill](https://www.digikey.com/en/products/detail/ebm-papst-inc/LZ29-1/441857?s=N4IgTCBcDaICwAYC2SAEAzAhgO1QcwCcBLAGxJAF0BfIA)
-* [Heat gun (Recommended)](https://amzn.to/3MfJmv1) or [Soldering Iron](https://amzn.to/3U1GCDu)
-* (Recommended) [Solder seal wire connectors](https://amzn.to/434TjRV)
-* [Wire strippers](https://amzn.to/3zKWpxj)
+* [Heat gun (Recommended)](https://www.amazon.com/dp/B09QRN12MW?coliid=I2OBVLCKNGAZ3G&colid=2ER3G7QXE7BQ3&psc=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=5b0be74cadd9003d52cdbd6ac8f395b9&language=en_US&ref_=as_li_ss_tl) or [Soldering Iron](https://www.amazon.com/dp/B000AS28UC?coliid=I3MQWKMHU2JKLQ&colid=2ER3G7QXE7BQ3&th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=36958ea15c22a25b73f3434a7cae8306&language=en_US&ref_=as_li_ss_tl)
+* (Recommended) [Solder seal wire connectors](https://www.amazon.com/dp/B07S62KYSL?th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=4c440f046b88411d682e7f038f5cb585&language=en_US&ref_=as_li_ss_tl)
+* [Wire strippers](https://www.amazon.com/Klein-Tools-Cutter-Stripper-Stranded/dp/B00080DPNQ?crid=316Y441M10DW2&keywords=wire%2Bstrippers&qid=1673564002&s=hi&sprefix=wire%2Bstrippers%2Ctools%2C101&sr=1-6&th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=126522e600625dd2441365997b643d93&language=en_US&ref_=as_li_ss_tl)
 * 2-4 Screws to fit your fan, I personally went to ACE to find these, but you can find them elsewhere depending on the size of your fan.
 * Zip-ties
 
@@ -83,9 +91,9 @@ I don't have clear data for this one as I do for the part cooling fan unfortunat
 * 24v fan (I got one of size 80x80x25, but any size will work as long as you can find a shroud
 * As long as you got a fan that is larger than the original, you will need new [legs](https://www.thingiverse.com/thing:4603075)
 * 3D Printed shroud to match [80x80x25](https://www.thingiverse.com/thing:4601320)
-* [Heat gun (Recommended)](https://amzn.to/3MfJmv1) or [Soldering Iron](https://amzn.to/3U1GCDu)
-* (Recommended) [Solder seal wire connectors](https://amzn.to/434TjRV)
-* [Wire strippers](https://amzn.to/3zKWpxj)
+* [Heat gun (Recommended)](https://www.amazon.com/dp/B09QRN12MW?coliid=I2OBVLCKNGAZ3G&colid=2ER3G7QXE7BQ3&psc=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=5b0be74cadd9003d52cdbd6ac8f395b9&language=en_US&ref_=as_li_ss_tl) or [Soldering Iron](https://www.amazon.com/dp/B000AS28UC?coliid=I3MQWKMHU2JKLQ&colid=2ER3G7QXE7BQ3&th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=36958ea15c22a25b73f3434a7cae8306&language=en_US&ref_=as_li_ss_tl)
+* (Recommended) [Solder seal wire connectors](https://www.amazon.com/dp/B07S62KYSL?th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=4c440f046b88411d682e7f038f5cb585&language=en_US&ref_=as_li_ss_tl)
+* [Wire strippers](https://www.amazon.com/Klein-Tools-Cutter-Stripper-Stranded/dp/B00080DPNQ?crid=316Y441M10DW2&keywords=wire%2Bstrippers&qid=1673564002&s=hi&sprefix=wire%2Bstrippers%2Ctools%2C101&sr=1-6&th=1&sa-no-redirect=1&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=126522e600625dd2441365997b643d93&language=en_US&ref_=as_li_ss_tl)
 * Phillips head screw driver
 
 ## How do I pick a fan?
@@ -121,7 +129,7 @@ TODO
 
 # Filament run-out sensor
 TODO
-[Official Creality Sensor](https://amzn.to/3ZCG1sU)
+[Official Creality Sensor](https://www.amazon.com/Official-Creality-Detection-Max%EF%BC%8CEnder-Motherboard/dp/B09NKWSZ31?crid=2HMZC3IAW45GU&keywords=filament+runout+sensor&qid=1672879762&s=industrial&sprefix=filament+runout+sensor%2Cindustrial%2C133&sr=1-4&linkCode=ll1&tag=ender3v2neotutorial-20&linkId=d98866435bb4e62d890ec832cd811bdc&language=en_US&ref_=as_li_ss_tl)
 
 # Remote Management
 You can read my [octoprint guide here.](https://github.com/conway220/Ender-3-V2-Neo-Setup/wiki/Remote-Management-(Octoprint))

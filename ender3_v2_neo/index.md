@@ -1,13 +1,24 @@
-[Fine Tuning your printer](fine_tuning.html)
+---
+title: Ender 3 V2 Neo
+layout: home
+nav_order: 1
+description: "Ender 3 v2 neo"
+permalink: /ender3_v2_neo
+---
 
-[Firmware Update](firmware_update.html)
+Some links on this site are affiliate links, it gives a small kickback to me if you buy them. That being said, all of the items I recommend are the ones I bought - and if there is not an affiliate link available, i'll still recommend the product I bought(i.e. digikey). So every recommendation and link is something that I have gotten personally.
 
-[Printer Parts](printer_parts.html)
+[Fine Tuning your printer](fine_tuning)
 
-[Printer Specifications](printer_specifications.html)
+[Firmware Update](firmware_update)
 
-[Printer Upgrades](printer_upgrades.html)
+[Printer Upgrades](printer_upgrades)
 
-[Remote management](remote_management.html)
+[Printer Parts](printer_parts)
 
-[Troubleshooting](troubleshooting.html)
+[Printer Specifications](printer_specifications)
+
+
+[Remote management](remote_management)
+
+[Troubleshooting](troubleshooting)

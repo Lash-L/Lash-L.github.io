@@ -1,3 +1,10 @@
+---
+title: Printer parts
+layout: page
+nav_order: 7
+description: "Learn what parts are in your printer."
+permalink: /ender3_v2_neo/printer_parts
+---
 ## How do I know what Motherboard Version I have?
 If you look through the bottom of your printer, you should be able to see through the ventilation holes for the motherboard and see if it says 4.2.2 or 4.2.7 The text in the center is what matters.
 ### 4.2.2

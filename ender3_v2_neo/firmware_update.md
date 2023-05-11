@@ -1,3 +1,11 @@
+---
+title: Firmware Update
+layout: page
+nav_order: 2
+description: "How and why to update your firmware"
+permalink: /ender3_v2_neo/firmware_update
+---
+
 # Why should I update my firmware?
 The default Creality Firmware does its job, but in terms of features, it just doesn't compare. Here are the big ones:
 ### Auto Bed tramming
