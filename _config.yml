@@ -1,4 +1,5 @@
 title: Lash-L Github pages
+description: My Github Pages website
 theme: just-the-docs
 plugins:
   - jekyll-relative-links
@@ -14,4 +15,3 @@ include:
   - REMOTE_MANAGEMENT.md
   - TROUBLESHOOTING.md
  
-remote_theme: pmarsceill/just-the-docs
