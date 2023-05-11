@@ -96,7 +96,7 @@ This is something that is frequently overlooked but once configured will make a 
 
 [This is the guide I learned from](https://ellis3dp.com/Print-Tuning-Guide/articles/extruder_calibration.html) I would recommend doing things slightly differently for the ender 3 v2 neo
 
-To be able to do this you need to have terminal access to your printer. You can do this by plugging in a computer with a micro-usb cable and installing software like Pronterface or setting up a remote-management tool like Octoprint. If you have any desire to be able to print to your printer without having to remove the microsd card, upload g code onto the sd card and then put it back in your printer. I would recommend setting up Octoprint - [which I have a guide on here.](https://github.com/conway220/Ender-3-V2-Neo-Setup/wiki/Remote-Management-(Octoprint))
+To be able to do this you need to have terminal access to your printer. You can do this by plugging in a computer with a micro-usb cable and installing software like Pronterface or setting up a remote-management tool like Octoprint. If you have any desire to be able to print to your printer without having to remove the microsd card, upload g code onto the sd card and then put it back in your printer. I would recommend setting up Octoprint - [which I have a guide on here.](remote_management.html)
 
 ### Steps
 1. Retract all of your filament until it is just barely going through the hole after the gears, it should still slightly be in the bowden tubing.

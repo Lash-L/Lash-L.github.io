@@ -1,3 +1,5 @@
+title: Lash-L Github pages
+theme: just-the-docs
 plugins:
   - jekyll-relative-links
 relative_links:
