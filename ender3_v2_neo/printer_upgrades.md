@@ -13,7 +13,7 @@ NOTE: I am not an electrician, I am just a guy who does this for a hobby, as alw
 
 # Table of Contents
 * [Bowden Extruder](upgrades#bowden-extruder-tubing--5-minutes)
-* [Hotend fan](upgrades#hot-end-fan-30-minutes)
+* [Hotend fan](upgrades#hot-end-30-minutes)
 * [Silent PSU fan](upgrades#silent-psu-fan-30-minutes)
 
 # About these upgrades
