@@ -15,9 +15,9 @@ If you look through the bottom of your printer, you should be able to see throug
 ## How do I know what Screen Version I have?
 If you remove the screen from the side of the printer, and then remove the 4 screws holding the back on, you should see one of two screens:
 ### Dacai screen
-![DACAI Screen](https://github.com/conway220/Ender-3-V2-Neo-Setup/blob/main/Printer_Part_Images/Screens/DACAI_display.jpg)
+![DACAI Screen](https://github.com/Lash-L/Ender-3-V2-Neo-Setup/blob/main/Printer_Part_Images/Screens/DACAI_display.jpg?raw=true)
 ### Dwin screen
-![Dwin Screen](https://github.com/conway220/Ender-3-V2-Neo-Setup/blob/main/Printer_Part_Images/Screens/dwin_display.jpg)
+![Dwin Screen](https://github.com/Lash-L/Ender-3-V2-Neo-Setup/blob/main/Printer_Part_Images/Screens/dwin_display.jpg?raw=true)
 
 These Images for the screen are from [mriscoc's guide for flashing the screen](https://github.com/mriscoc/Ender3V2S1/tree/Ender3V2S1-Released/display%20assets), which you will view during the tutorial
 

@@ -20,7 +20,7 @@ TODO: Add image
 * [Latest Version of Marlin Professional Firmware designed for the Ender 3 v2 by Mriscoc (Download the source code)](https://github.com/mriscoc/Ender3V2S1/releases)
 * [OEM Firmware for the Ender 3 V2 Neo](https://www.creality.com/pages/download-ender-3-v2-neo) - Should no longer be needed with newest version of mriscoc
 * [My Configuration files for Marlin](https://github.com/conway220/Ender-3-V2-Neo-Setup/tree/main/Marlin_Configurations) You can technically use one of the defaults that comes with the firmware, but I would recommend using mine as I know for sure my changes work.
-* [Know what board you have](https://github.com/Lash-L/Ender-3-V2-Neo-Setup/wiki/Learn-your-printer-parts#how-do-i-know-what-motherboard-version-i-have)
+* [Know what board you have](https://lash-l.github.io/ender3_v2_neo/printer_parts#how-do-i-know-what-motherboard-version-i-have)
 * A microSd card (The one that came with your printer will work fine)
 
 # Installing the Firmware
@@ -45,7 +45,7 @@ TODO: Add image
 9. If you are missing icons or anything else on the display looks wrong, remove the microsd, turn the machine off and restart it. If that doesn't fix the problem, turn the machine off, remove the display screen, and then put the microsd card into the slot on the back of the display (you have to remove the allen screens on the back of the screen and take the back off). Turn the machine back on, The screen will go blue with orange text and eventually it will go to the creality logo that has question marks on it. Remove the microsd from the screen, reinstall the screen to the side of the machine, and then turn the machine on. You should now be good!
 10. Follow [these](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-generate-a-gcode-preview) steps to get g-code preview
 
-Congrats! You have updated your firmware. I would recommend reading through my [fine-tuning your printer](https://github.com/conway220/Ender-3-V2-Neo-Setup/wiki/Fine-Tuning-your-printer) page next to get the z-offset, meshing, and extruder steps correct.
+Congrats! You have updated your firmware. I would recommend reading through my [fine-tuning your printer](https://lash-l.github.io/ender3_v2_neo/fine_tuning) page next to get the z-offset, meshing, and extruder steps correct.
 
 
 # Upgrading to mriscoc 20230312
@@ -63,4 +63,4 @@ Change line 92 in configuration.h to whichever board version you have. I have bo
 7. Follow [these](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-generate-a-gcode-preview) steps to get g-code preview
 
 ## Step two: Updating
-Follow the steps [here](https://github.com/Lash-L/Ender-3-V2-Neo-Setup/wiki/Updating-Firmware#step-two-install-the-firmware)
+Follow the steps [here](https://lash-l.github.io/ender3_v2_neo/firmware_update#step-two-install-the-firmware)

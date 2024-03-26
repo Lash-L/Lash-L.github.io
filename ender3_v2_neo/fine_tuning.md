@@ -27,6 +27,13 @@ These are his profiles: Download them all
 
 Once you have downloaded them, create a new machine profile settings in cura, then open each .3mf file one at a time in cura. It will add each profile. Then you can delete the machine profiles it created, and rename each profile. Use these instead of the default profiles. you will see a speed-up and better quality.
 
+## Modify your profiles for each filament brand you use!
+
+This was something I was unaware of for a long time. I would buy a bunch of random filament and use my settings as is, but my print quality would get significantly worse.
+
+For each brand and subtype of filament, you need to do a temp tower and retraction tower test! I have had fillaments(both pla+) have an optimal printing temperature difference of 10-15 degrees!
+
+Personally, I stick with one brand of fillament whenever possible to make my life easier - I use [eSun pla+](https://amzn.to/3vprQP3)
 
 ## Tramming your bed:
 1. Go to Prepare-> Bed Tramming -> Tramming Wizard
@@ -47,29 +54,9 @@ Once you have downloaded them, create a new machine profile settings in cura, th
 
 ## Slicer Settings
 I have my slicer set to automatically run the Mesh leveling before every print and I would really recommend this. It is possible to just use the saved mesh, and if that is something people are interested in, I can add it to the tutorial
-Start G-code (Bi-linear mesh):
-~~~
-M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration
-M203 X500.00 Y500.00 Z20.00 E50.00 ;Setup machine max feedrate
-M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration
-M205 X8.00 Y8.00 Z0.40 E5.00 ;Setup Jerk
-M220 S100 ;Reset Feedrate
-M221 S100 ;Reset Flowrate
-G92 E0 ; Reset Extruder
-G28 ; home all
-G29 ; Run mesh leveling on every print
-C108 ; Close the mesh viewer (optional)
-G29 F 10.0 ; set fade height to 10mm
-G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-G1 X0.1 Y20 Z0.3 F5000.0 ; Move to start position
-G1 X0.1 Y200.0 Z0.3 F1500.0 E15 ; Draw the first line
-G1 X0.4 Y200.0 Z0.3 F5000.0 ; Move to side a little
-G1 X0.4 Y20 Z0.3 F1500.0 E30 ; Draw the second line
-G92 E0 ; Reset Extruder
-G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish
-~~~
+
 Start G-Code (UBL)
+~~~
 M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration
 M203 X500.00 Y500.00 Z20.00 E50.00 ;Setup machine max feedrate
 M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration
@@ -78,10 +65,10 @@ M220 S100 ;Reset Feedrate
 M221 S100 ;Reset Flowrate
 G92 E0 ; Reset Extruder
 G28 ; home all
-G29 L0 ; Load mesh from slot 0 (or use any other previously saved slot)
+G29 P1 ; Home automatically and run mesh leveling on every print
 G29 A ; Activate UBL
-G29 J ; Auto tilt mesh (optional)
-G29 F 10.0 ; set fade height to 10mm
+M500 ; save mesh ( and all data ) in memory
+C108 ; Close the mesh viewer (optional)
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 G1 X0.1 Y20 Z0.3 F5000.0 ; Move to start position
 G1 X0.1 Y200.0 Z0.3 F1500.0 E15 ; Draw the first line
@@ -90,12 +77,21 @@ G1 X0.4 Y20 Z0.3 F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 G1 X5 Y20 Z0.3 F5000.0 ; Move over to prevent blob squish
+~~~
 End G-Code:
 ~~~
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
 G1 X0 Y220 ;Present print
 M106 S0 ;Turn-off fan
 M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed
+
 M84 X Y E ;Disable all steppers but Z
 ~~~
 

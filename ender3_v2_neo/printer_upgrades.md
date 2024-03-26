@@ -12,6 +12,7 @@ NOTE: I am not an electrician, I am just a guy who does this for a hobby, as alw
 
 
 # Table of Contents
+* [Silicone Spacers]
 * [Bowden Extruder](upgrades#bowden-extruder-tubing--5-minutes)
 * [Hotend fan](upgrades#hot-end-30-minutes)
 * [Silent PSU fan](upgrades#silent-psu-fan-30-minutes)
@@ -19,6 +20,19 @@ NOTE: I am not an electrician, I am just a guy who does this for a hobby, as alw
 # About these upgrades
 
 These are upgrades I figured out how to do through various tutorials, googling, and troubleshooting. All of the tools I recommend are the ones that I use, I would not feel comfortable recommending anything else.
+
+# Silicone Spacers (5 minutes)
+## Why?
+Springs are not consistent, if you find yourself have to relevel your machine frequently, this is a great addon. Since I installed mine I have rarely had to do a relevel.
+
+## Supplies
+* [Silicone Spacers](https://amzn.to/3vu3nbi)
+
+## Steps
+1. Unscrew all 4 leveling knobs until they come off
+2. Lift your bed plate up and remove the springs
+3. add the spacers
+4. Screw back on!
 
 # Bowden Extruder Tubing ( 5 minutes)
 ## Why?
@@ -98,7 +112,7 @@ I don't have clear data for this one as I do for the part cooling fan unfortunat
 
 ## How do I pick a fan?
 
-The best way I found was going to digikey and mouser and sorting by lowest db. The stock fan has a CFM of 15 and a db of 22. You want to find anything higher or equal to 15 CFM and lower than 22 dba [(Source for original fan specs)](https://github.com/Lash-L/Ender-3-V2-Neo-Setup/wiki/Printer-Specifications#psu-fan). Personally, I ordered a backordered fan, and waited a few months to get a low dba/higher CFM.
+The best way I found was going to digikey and mouser and sorting by lowest db. The stock fan has a CFM of 15 and a db of 22. You want to find anything higher or equal to 15 CFM and lower than 22 dba [(Source for original fan specs)](https://lash-l.github.io/ender3_v2_neo/printer_specifications#psu-fan). Personally, I ordered a backordered fan, and waited a few months to get a low dba/higher CFM.
 
  Some people will use 12V fans and use a buck converter to use it instead of a 24V fan. You will probably get a quieter fan, but buck converters fail, and it is another step. I would personally recommend against it, but if that is something you want to do, you can find steps online.
 

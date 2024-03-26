@@ -15,7 +15,7 @@ The second thing to check is that if you have something plugged in to the microu
 ## Help! I updated firmware and now my screen is not working!
 
 Sometimes when you update firmware, you also need to update the firmware on your screen as well.
-1. Figure out what kind of screen you have: [How do I know what screen I have?](https://github.com/conway220/Ender-3-V2-Neo-Setup/wiki/Learn-your-printer-parts#how-do-i-know-what-screen-version-i-have)
+1. Figure out what kind of screen you have: [How do I know what screen I have?](https://lash-l.github.io/ender3_v2_neo/firmware_update#step-two-install-the-firmware)
 2. Format a microsd card to FAT32 with 4096Bytes for allocation size
 3. If you have a DWIN screen download [this](https://downgit.github.io/#/home?url=https://github.com/mriscoc/Ender3V2S1/tree/Ender3V2S1-Released/display%20assets/stock/DWIN_SET), If you have a DACAI Screen -download [this](https://downgit.github.io/#/home?url=https://github.com/mriscoc/Ender3V2S1/tree/Ender3V2S1-Released/display%20assets/stock/private)
 4. Download the official Creality Firmware [here](https://www.creality.com/pages/download-ender-3-v2-neo) - This part could be optional, but I have heard of people having issues if they don't have this.
