@@ -12,7 +12,7 @@ NOTE: I am not an electrician, I am just a guy who does this for a hobby, as alw
 
 
 # Table of Contents
-* [Silicone Spacers]
+* [Silicone Spacers](upgrades#upgrades#silicone-spacers-5-minutes)
 * [Bowden Extruder](upgrades#bowden-extruder-tubing--5-minutes)
 * [Hotend fan](upgrades#hot-end-30-minutes)
 * [Silent PSU fan](upgrades#silent-psu-fan-30-minutes)
