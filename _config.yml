@@ -3,3 +3,6 @@ description: My Github Pages website
 theme: just-the-docs
 
 aux_links_new_tab: true
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
