@@ -1,7 +1,7 @@
 title: Lash-L Github pages
 description: My Github Pages website
 theme: just-the-docs
-
+url: https://lash-l.github.io/
 aux_links_new_tab: true
 plugins:
   - jekyll-include-cache
