@@ -12,7 +12,7 @@ Some links on this site are affiliate links, it gives a small kickback to me if 
 
 [Firmware Update](/ender3_v2_neo/firmware_update)
 
-[Printer Upgrades](/ender3_v2_neo/printer_upgrade)
+[Printer Upgrades](/ender3_v2_neo/upgrades)
 
 [Printer Parts](/ender3_v2_neo/printer_parts)
 
